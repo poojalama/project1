@@ -1,0 +1,59 @@
+body{
+	background-image: url(bg5.jpg);
+	background-size: cover;
+	/*background-repeat: no-repeat;*/
+}
+h1{
+	color: #661141;
+	text-align: center;
+}
+p{
+	color: #440027;
+	text-align: center;
+	border: 5px solid #AA5585;
+
+	font-size: 200%;
+	line-height: 20 px;
+	font-family: 'Sacramento', cursive;
+	text-indent: 3em; 
+} 
+li{
+	text-align: right;
+	list-style: none;
+	display: inline-block;
+	margin-right: 15px;
+}
+img{
+	float: right;
+}
+.content{
+	color: #2da1c1;
+  font-size: small;
+  text-decoration: none;
+  left: 252px;
+  float: right;
+
+}
+ul {
+  list-style-type: none;
+  margin: 1;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 8px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
